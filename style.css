@@ -94,7 +94,7 @@ body > #introduct {
 }
 #introduct .container > div  a:hover {
 	background-color: #23b7a4;
-	border: 2px solid #23b7a4
+	border: 2px solid #23b7a4;
 }
 
 #content > div {
@@ -176,6 +176,7 @@ padding-top: 20px;
 	padding: 18.5px 23.5px;
 	width: 60px;
 	height: 60px;	
+	transition: background 0.8s;
 }
 #content > div >  #first > div > ul > li > a > span{
 	display: none;
