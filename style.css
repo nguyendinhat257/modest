@@ -96,7 +96,29 @@ body > #introduct {
 	background-color: #23b7a4;
 	border: 2px solid #23b7a4;
 }
-
+#introduct > #checkboxs {	
+	position: absolute;
+	bottom: 20px;
+	right: 200px;
+}
+#introduct > #checkboxs > div {
+	display: inline-block;
+}
+#introduct > #checkboxs > div > label {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid white;
+	cursor: pointer;
+	margin-right: 5px;
+}
+#introduct > #checkboxs > div > input {
+	display: none;
+}
+#introduct > #checkboxs > div > input:checked + label{
+	background-color: white;
+}
 #content > div {
 	width: 1140px;
 	margin: 0px auto;
